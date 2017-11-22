@@ -1,4 +1,5 @@
 var Letter = require("./letter.js");
+const chalk = require('chalk');
 
 //Word constructor
 function Word(pokemon){
@@ -39,10 +40,10 @@ function Word(pokemon){
 		return true;
 	}
 	this.displayWord = function(){
-		console.log(this.newWord.join(" "))
+		console.log(chalk.bold(this.newWord.join(" ")));
 	}
 	this.displayGuesses = function(){
-		console.log("Current guesses: ",this.currentGuess.join(" "))
+		console.log(chalk.rgb(0, 36, 162)("Current guesses:",chalk.bold(this.currentGuess.join(" "))));
 	}		
 	this.newLetter = function(letter){
 		if (this.newWord.indexOf(letter) > -1 || this.currentGuess.indexOf(letter) > -1  ) {

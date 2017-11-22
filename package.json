@@ -1,0 +1,23 @@
+{
+  "name": "constructor_hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmm47766/Constructor_Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmm47766/Constructor_Hangman/issues"
+  },
+  "homepage": "https://github.com/lmm47766/Constructor_Hangman#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "requirer": "0.0.4"
+  }
+}
