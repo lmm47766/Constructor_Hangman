@@ -92,7 +92,7 @@ function startGame(){
 	var test = new Word(pokemon[random()]);
 	// console.log(test.randomWord);
 	// console.log(chalk.bold("GUESS THE POKEMON!"));
-	console.log(chalk.hex('#ffffff').bgBlack.bold(" GUESS THE POKEMON! "));
+	console.log(chalk.hex('#ffffff').bgBlack.bold(" GUESS THE MARVEL CHARACTER! "));
 	test.getLets();
 	test.displayWord();
 	prompt(test,counter);
